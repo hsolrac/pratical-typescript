@@ -1,6 +1,6 @@
 ### Pratical Typescript 
 
-![Stages TS](./stages-ts.excalidraw)
+![Stages TS](./stages-ts.svg)
 
 #### Fundamentals 
 
