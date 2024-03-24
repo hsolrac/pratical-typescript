@@ -12,6 +12,7 @@ Runs Everyone
 
 #### Fundamentals 
 
+- [Anotations Type](./fundamentals/fundamentals.md#Type Anotations)
 
 
 ##### Resource 
