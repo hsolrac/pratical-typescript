@@ -1,4 +1,4 @@
-#### Type Anotations
+#### Type Annotations
 
 Explicity specify the types of variables, parameters, return values, and other entities in your code.
 
