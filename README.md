@@ -1,14 +1,6 @@
 ### Pratical Typescript 
 
-Typescript File(.ts or .tsx)
-                                -> Typescript Code 
-Anotations, Types, Generics 
-           |
-Typescript Compiler             -> Compilation/Transpiling
-           |
-JavaScript Code (.js)
-                                -> Vanilla JS Code 
-Runs Everyone   
+![Stages TS](./stages-ts.excalidraw)
 
 #### Fundamentals 
 
