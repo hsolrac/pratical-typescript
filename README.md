@@ -14,7 +14,7 @@ Runs Everyone
 
 
 
-###### Resource 
+##### Resource 
 
-- (Pratical Typescript - Course for Beginners)[https://www.youtube.com/watch?v=JHEB7RhJG1Y&t=31000s]
+- [Pratical Typescript - Course for Beginners](https://www.youtube.com/watch?v=JHEB7RhJG1Y&t=31000s)
 
