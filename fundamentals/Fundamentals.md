@@ -60,3 +60,34 @@ let point: Point = { x: 10, y: 20 };
 type AddFunction = (x: number, y: number) => number; 
 ler add: AddFunction = (x, y) => x + y;
 ```
+
+### Tuplas and Enums
+
+Tuplas and Enums are similar to arrays and objects, but their elements can be of any type.
+
+- Enums allow a developer to define a set of named constants. Using enums can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based enums.
+
+```typescript
+enum StatusResponse {
+    Success = 200, 
+    Error = 500
+}
+
+interface Response {
+    status: StatusResponse;
+    data: string[];
+}
+
+function getServerResponse(): Response {
+    return {
+        status: StatusResponse.Sucess,
+        data: ["data1", "data2"]
+    }
+}
+
+```
+
+
+- A tuple type is another sort of Array type that knows exactly how many elements it contains, and exactly which types it contains at specific positions.
+
+

@@ -63,5 +63,58 @@ function createEmploye({id}: { id: number }): {
 const first = createEmploye({id:2})
 const second = createEmploye({id:3})
 
-console.log(first)
-console.log(second)
+
+
+// Enums 
+enum StatusResponse {
+    Success = 200, 
+    Error = 500
+}
+
+console.log(StatusResponse)
+
+interface ServerResponse {
+    result: StatusResponse;
+    data: string[];
+}
+
+function getServerResponse(): ServerResponse {
+    return {
+        result: StatusResponse.Success,
+        data: ["data1", "data2"]
+    }
+}
+
+const response = getServerResponse();
+
+console.log(response)
+
+
+enum UserRole {
+  Admin, 
+  Manager, 
+  Employee
+}
+
+type User = {
+  id: number;
+  name: string;
+  role: UserRole, 
+  contact: [string, number]
+}
+
+
+
+function createUser(user: User): User {
+  return user
+}
+
+let user1: User = {
+  id: 1,
+  name: "Carlos",
+  role: UserRole.Admin,
+  contact: ["ch@gmail.com", 9999999]
+}
+
+const result10 = createUser(user1)
+console.log(result10)
