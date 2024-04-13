@@ -90,4 +90,22 @@ function getServerResponse(): Response {
 
 - A tuple type is another sort of Array type that knows exactly how many elements it contains, and exactly which types it contains at specific positions.
 
+### Type Manipulation
 
+- Generics - Type which take parameters
+- Keyof Type Operator 
+- Typeof Type Operator
+- Indexed Access Types
+- Conditional Types
+- Mapped Types
+- Template Literals Types
+
+##### Hello World, Genercis 
+
+```typescript
+function identify<T>(name: T): T {
+    return name;
+}
+
+let name = identify("John");
+```
