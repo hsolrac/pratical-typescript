@@ -108,4 +108,30 @@ function identify<T>(name: T): T {
 }
 
 let name = identify("John");
+
+
+funtion genericFunction<T>(arg: T): T {
+    return arg;
+}
+
+const someStringValue = genericFunction<string>("Hello");
+const someNumberValue = genericFunction<number>(10);
+
+
+interface genericInterface<T> {
+    value:T; 
+    getValue: () => T;
+}
+
+const genericString: genericInterface<string> = {
+    value: "Hello",
+    getValue() {
+        return this.value
+    }
+}
+
+async function someFunc():Promise<string> {
+    return "Hello";
+}
+
 ```
