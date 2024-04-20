@@ -10,6 +10,10 @@
 
 - [Type Manipulation](/fundamentals/Fundamentals.md#TypeManipulation)
 
+- [Fetch Data](/fundamentals/Fundamentals.md#FetchData)
+
+- [Classes](/fundamentals/Classes.md#Classes)
+
 ##### Resource 
 
 - [Pratical Typescript - Course for Beginners](https://www.youtube.com/watch?v=JHEB7RhJG1Y&t=)

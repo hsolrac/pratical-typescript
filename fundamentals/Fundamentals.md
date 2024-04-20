@@ -135,3 +135,8 @@ async function someFunc():Promise<string> {
 }
 
 ```
+
+###### Fetch Data
+
+- Tipical axios and React Query
+- we wont set any state values
