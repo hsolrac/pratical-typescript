@@ -11,6 +11,7 @@ class Book {
         this.autor = author,
     }
 
+    // Getters / Setters
     public checkOut() {
         this.checkedOut = true;
     }
@@ -45,4 +46,33 @@ interface Person {
     readonly name: string;
 }
 ```
+
+##### Implementing Interfaces
+
+```typescript
+interface IPerson {
+    name: string; 
+    age: string; 
+    greet(): void;
+}
+
+class Person implements IPerson {
+    constructor(
+        public name: 
+        string, public 
+        age: string
+    ){}
+
+    greet():void{
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`)
+    }
+}
+
+
+```
+
+
+
+
+
 
