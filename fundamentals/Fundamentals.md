@@ -109,6 +109,9 @@ function getServerResponse(): Response {
 
 ##### Hello World, Genercis 
 
+Components that are capable of working on the data of today as well as the data of tomorrow will give you the most flexible capabilities for building up large software systems.
+
+
 ```typescript
 function identify<T>(name: T): T {
     return name;
@@ -142,6 +145,25 @@ async function someFunc():Promise<string> {
 }
 
 ```
+
+
+##### Generic Classes 
+
+A generic class has a similar shape to a generic interface. Generic classes have a generic type parameter list in angle brackets (<>) following the name of the class.
+
+```typescript
+class GenericNumber<NumType> {
+  zeroValue: NumType;
+  add: (x: NumType, y: NumType) => NumType;
+}
+ 
+let myGenericNumber = new GenericNumber<number>();
+myGenericNumber.zeroValue = 0;
+myGenericNumber.add = function (x, y) {
+  return x + y;
+};
+```
+
 
 ###### Fetch Data
 
