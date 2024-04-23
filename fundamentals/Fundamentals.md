@@ -1,3 +1,10 @@
+### The primitives: 
+- string 
+- number
+- boolean
+
+JavaScript has three very commonly used primitives: string, number, and boolean. Each has a corresponding type in TypeScript. As you might expect, these are the same names you’d see if you used the JavaScript typeof operator on a value of those types:
+
 #### Type Annotations
 
 Explicity specify the types of variables, parameters, return values, and other entities in your code.
